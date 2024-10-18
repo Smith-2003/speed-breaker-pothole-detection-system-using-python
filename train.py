@@ -179,8 +179,5 @@ def main(_):
       is_chief,
       FLAGS.train_dir,
       graph_hook_fn=graph_rewriter_fn)
-
-
 if __name__ == '__main__':
   tf.app.run()
-
